@@ -1,0 +1,179 @@
+{
+  "errors": [],
+  "rangeCounts": {
+    "5bb": {
+      "UTG": {
+        "SHOVE": 47
+      },
+      "MP": {
+        "SHOVE": 60
+      },
+      "HJ": {
+        "SHOVE": 70
+      },
+      "CO": {
+        "SHOVE": 82
+      },
+      "BTN": {
+        "SHOVE": 98
+      },
+      "SB": {
+        "SHOVE": 162
+      },
+      "BB": {
+        "NOT_APPLICABLE": 0
+      }
+    },
+    "10bb": {
+      "UTG": {
+        "SHOVE": 18
+      },
+      "MP": {
+        "SHOVE": 27
+      },
+      "HJ": {
+        "SHOVE": 39
+      },
+      "CO": {
+        "SHOVE": 55
+      },
+      "BTN": {
+        "SHOVE": 78
+      },
+      "SB": {
+        "SHOVE": 115
+      },
+      "BB": {
+        "NOT_APPLICABLE": 0
+      }
+    },
+    "15bb": {
+      "UTG": {
+        "RAISE": 21,
+        "SHOVE": 5
+      },
+      "MP": {
+        "RAISE": 29,
+        "SHOVE": 6
+      },
+      "HJ": {
+        "RAISE": 40,
+        "SHOVE": 7
+      },
+      "CO": {
+        "RAISE": 57,
+        "SHOVE": 6
+      },
+      "BTN": {
+        "RAISE": 88,
+        "SHOVE": 4
+      },
+      "SB": {
+        "RAISE": 98,
+        "SHOVE": 8
+      },
+      "BB": {
+        "NOT_APPLICABLE": 0
+      }
+    },
+    "20bb": {
+      "UTG": {
+        "RAISE": 25
+      },
+      "MP": {
+        "RAISE": 36
+      },
+      "HJ": {
+        "RAISE": 48
+      },
+      "CO": {
+        "RAISE": 67
+      },
+      "BTN": {
+        "RAISE": 105
+      },
+      "SB": {
+        "RAISE": 111
+      },
+      "BB": {
+        "NOT_APPLICABLE": 0
+      }
+    },
+    "30bb": {
+      "UTG": {
+        "RAISE": 31
+      },
+      "MP": {
+        "RAISE": 43
+      },
+      "HJ": {
+        "RAISE": 53
+      },
+      "CO": {
+        "RAISE": 82
+      },
+      "BTN": {
+        "RAISE": 112
+      },
+      "SB": {
+        "RAISE": 160
+      },
+      "BB": {
+        "NOT_APPLICABLE": 0
+      }
+    },
+    "40bbPlus": {
+      "UTG": {
+        "RAISE": 39
+      },
+      "MP": {
+        "RAISE": 51
+      },
+      "HJ": {
+        "RAISE": 64
+      },
+      "CO": {
+        "RAISE": 84
+      },
+      "BTN": {
+        "RAISE": 117
+      },
+      "SB": {
+        "RAISE": 162
+      },
+      "BB": {
+        "NOT_APPLICABLE": 0
+      }
+    }
+  },
+  "removedConflicts": [
+    {
+      "position": "HJ",
+      "removedFromShove": [
+        "QTs"
+      ]
+    },
+    {
+      "position": "CO",
+      "removedFromShove": [
+        "K8s",
+        "Q9s"
+      ]
+    },
+    {
+      "position": "BTN",
+      "removedFromShove": [
+        "K7o",
+        "Q9o",
+        "J8s"
+      ]
+    },
+    {
+      "position": "SB",
+      "removedFromShove": [
+        "J7o",
+        "T7s"
+      ]
+    }
+  ]
+}

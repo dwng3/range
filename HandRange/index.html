@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MTT 핸드레인지</title>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="page-header">
+        <p class="eyebrow">9인 테이블 · 학습용 프리플랍 레인지</p>
+        <h1>MTT 핸드레인지</h1>
+      </header>
+
+      <section class="control-panel" aria-label="레인지 조건 선택">
+        <div class="control-group">
+          <div class="control-title">스택 선택</div>
+          <div id="stack-buttons" class="button-row" role="group" aria-label="스택 구간"></div>
+        </div>
+
+        <div class="control-group">
+          <div class="control-title">포지션 선택</div>
+          <div id="position-buttons" class="button-row position-row" role="group" aria-label="포지션"></div>
+        </div>
+
+        <div class="selection-status" aria-live="polite">
+          <div>
+            <span>선택 포지션</span>
+            <strong id="selected-position">-</strong>
+          </div>
+          <div>
+            <span>적용 레인지</span>
+            <strong id="range-position">-</strong>
+          </div>
+          <div>
+            <span>상황</span>
+            <strong id="scenario-label">-</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="grid-section" aria-label="핸드 그리드">
+        <div id="message" class="message" hidden></div>
+        <div id="hand-grid" class="hand-grid" aria-label="13x13 핸드 그리드"></div>
+        <div id="legend" class="legend" aria-label="액션 범례"></div>
+      </section>
+
+      <section class="summary-panel" aria-label="현재 레인지 정보">
+        <h2>현재 레인지</h2>
+        <dl class="summary-list">
+          <div>
+            <dt>스택</dt>
+            <dd id="summary-stack">-</dd>
+          </div>
+          <div>
+            <dt>포지션</dt>
+            <dd id="summary-position">-</dd>
+          </div>
+          <div>
+            <dt>상황</dt>
+            <dd id="summary-scenario">-</dd>
+          </div>
+        </dl>
+        <div id="action-counts" class="action-counts"></div>
+        <p id="participation" class="participation">참여 핸드: 0 / 169 · 핸드 클래스 기준 0%</p>
+      </section>
+
+      <section class="detail-panel" aria-label="선택 핸드 정보">
+        <h2>선택 핸드</h2>
+        <p id="selected-hand-detail">핸드를 터치하면 현재 액션을 확인할 수 있습니다.</p>
+      </section>
+    </main>
+
+    <script src="./js/app.js" defer></script>
+  </body>
+</html>
